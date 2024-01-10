@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pageLayout</title>
+    <style>
+        .news1, .news2, .news3{
+            width: 300px;
+            height: 200px;
+            padding: 10px;
+            border: 1px solid blue;
+            margin: 10px 0;
+        }
+        
+        .news1{
+            position: relative;
+            
+        }
+        
+        .news2{
+            position: relative;
+            left: 50px;
+        }
+
+        .readmore{  
+            position: absolute;
+            width: 100px;
+            padding: 10px;
+            background-color: yellow;
+            text-align: center;
+            right: 5px;
+            bottom: 5px ;
+        }
+
+        .promotion{
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            font-size: 68px;
+            background-color: red;
+            color: white;
+            padding : 20px;
+            border-radius: 20px;
+        }
+
+    </style>
+<body>
+    <div class="promotion">Promotion!</div>
+    <div class="news1">
+        <h1>New 1</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, itaque. Vero officia voluptate perferendis dolorum voluptas pariatur velit earum saepe!
+        <div class="readmore">Read More</div>
+    </div>
+
+    <div class="news2">
+        <h1>New 2</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, itaque. Vero officia voluptate perferendis dolorum voluptas pariatur velit earum saepe!
+        <div class="readmore">Read More</div>
+    </div>
+
+    <div class="news3">
+        <h1>New 3</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, itaque. Vero officia voluptate perferendis dolorum voluptas pariatur velit earum saepe!
+    </div>
+
+    
+</body>
+</html>
